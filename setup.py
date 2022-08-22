@@ -21,6 +21,6 @@ ltc_scrypt_module = Extension('ltc_scrypt',
                                include_dirs=['.'])
 
 setup (name = 'ltc_scrypt',
-       version = '1.0.1',
+       version = '1.0.99',
        description = 'Bindings for scrypt proof of work used by Litecoin',
        ext_modules = [ltc_scrypt_module])
